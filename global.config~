@@ -41,5 +41,5 @@ COMPOSITION = {
 #  auth
 #  ratelimit
 #  ddos
-   ids
+  ids
 }
