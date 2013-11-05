@@ -213,5 +213,5 @@ def main(config, mode, modrepeat=None):
 
     # Run resonance
 # return resonance(app_to_module_map, app_composition_str) >> mac_learner()
-    return resonance(app_to_module_map, app_composition_str) >> (mac_learner() + scan())
+    return resonance(app_to_module_map, app_composition_str) >> (mac_learner() >> scan())
 

@@ -71,7 +71,8 @@ def main():
 
     # Open file if specified
     
-    
+    print "Archivo options"
+    print options
     if options.file is not None:
         try:
             fd = open(options.file, 'r')
@@ -89,9 +90,6 @@ def main():
             print 'No flow or trigger given. Exit.'
             return 
 
-            
-    print "flujo.........................."
-    print flow
     # Parse flow
     parse_flow(message_payload, flow)
 

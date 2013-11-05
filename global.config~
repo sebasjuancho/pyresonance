@@ -29,7 +29,7 @@ APPLICATIONS = {
 #  pyretic.pyresonance.apps.auth,
 #  pyretic.pyresonance.apps.auth_new,
    pyretic.pyresonance.apps.ids,
-   pyretic.pyresonance.apps.dos_app
+   pyretic.pyresonance.apps.dos_app,
 #  pyretic.pyresonance.apps.ratelimit,
 }
 
@@ -41,5 +41,6 @@ COMPOSITION = {
 #  auth
 #  ratelimit
 #  ddos
-  ids
+#  dos_app
+   ids
 }
